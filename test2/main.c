@@ -15,16 +15,17 @@ void copy(char * arg){
   printf("buf:%p\n",buffer);
   printf("funct:%p\n",func);
   printf("true return address: %p\n",__builtin_return_address(0));
-  printf("everything:%s\n",buffer);
+  //printf("everything:%s\n",buffer);
 
   
 
 }
 
 int main(int argc, char **argv){
-  char * buf = calloc(500,1);
-  scanf("%s",buf);
-  copy(buf);
+  //char * buf = calloc(500,1);
+  //scanf("%s",buf);
+  printf("size:%li\n",strlen(argv[1]));
+  copy(argv[1]);
   printf("normal exit\n");
   return 0;
 }
