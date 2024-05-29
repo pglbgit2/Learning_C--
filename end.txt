@@ -1,0 +1,11 @@
+duplicate
+move
+1
+debug
+call
+t
+aaaa
+call
+f3
+aaaa
+exit

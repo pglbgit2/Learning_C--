@@ -14,7 +14,7 @@ void func(){
 }
 
 void func2(){
-    printf("hacking attempt");
+    printf("hacking attempt\n");
 }
 
 int main(int argc, char ** argv){

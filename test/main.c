@@ -22,9 +22,10 @@ void copy(char * arg){
 }
 
 int main(int argc, char **argv){
-  char * buf = calloc(500,1);
-  scanf("%s",buf);
-  copy(buf);
+   //char * buf = calloc(500,1);
+  //scanf("%s",buf);
+  printf("size:%li\n",strlen(argv[1]));
+  copy(argv[1]);
   printf("normal exit\n");
   return 0;
 }
