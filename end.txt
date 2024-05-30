@@ -4,6 +4,7 @@ move
 debug
 call
 t
+Y
 aaaa
 call
 f3
